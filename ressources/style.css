@@ -7,10 +7,16 @@ body {
   margin: 0;
   text-align: center;
 }
- h1 {
+ h2 {
+   padding: 1px 1px 5px 1px;
+   margin: 0;
+
 
  }
-
+h4 {
+  padding: 10px 1px 1px 1px;
+  margin: 0;
+}
 /* Header */
 
 .banner {
@@ -21,6 +27,8 @@ body {
    border-bottom: 1px solid seashell;
    flex-grow: 1;
    width: 100%;
+   word-spacing: 0.5em;
+   background-color: #000;
 
 }
 
@@ -30,12 +38,57 @@ body {
 
  }
  header nav {
-   display: flex;
-   align-items: center;
+   text-align: right;
+   flex-grow: 1;
+   padding-top: 1em;
 
 
  }
 nav a {
+  display: inline-block;
   color: seashell;
   text-decoration: underline;
+
+}
+/* Main section*/
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+  margin: 0 auto;
+}
+/* Mission */
+.mission {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 100%;
+  align-items: center;
+
+}
+.narrative {
+  background-color: #000;
+  width: 1200px;
+  margin: 0;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 13px;
+  padding-bottom: 8px;
+}
+ /* Tea of the month*/
+
+ .month {
+    width: 1000px;
+    margin: 0 auto;
+ }
+
+ .month img {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 300px;
+ }
+.gallery {
+
 }
