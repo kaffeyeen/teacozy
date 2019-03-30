@@ -14,7 +14,7 @@ body {
 
  }
 h4 {
-  padding: 10px 1px 1px 1px;
+  padding: 10px 1px 5px 1px;
   margin: 0;
 }
 /* Header */
@@ -81,6 +81,7 @@ main {
  .month {
     width: 1000px;
     margin: 0 auto;
+    padding-top: 3em;
  }
 
  .month img {
@@ -90,5 +91,64 @@ main {
     width: 300px;
  }
 .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
+
+}
+.item {
+  padding: 15px;
+}
+
+/* Locations */
+
+.locations {
+   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+   height: 500px;
+   width: 100%;
+
+}
+.place {
+
+  width: 300px;
+  padding-right: 15px;
+  padding-left: 9px;
+  padding-top: 5px;
+  background-color: #000;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  opacity: 1;
+}
+h3 {
+margin: 0 auto;
+padding-top: 10px;
+}
+.locations h2 {
+   margin-top: 2em;
+   padding-top: 3em;
+   padding-bottom: 15px;
+}
+
+ .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Contact */
+.contact {
+  height: 200px
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  margin: 0;
+  padding: 20px;
+  text-align: left;
 }
